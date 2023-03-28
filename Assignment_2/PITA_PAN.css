@@ -1,0 +1,226 @@
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:bolder}dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+
+
+
+}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+.PITA_PAN-serif{font-family:serif}.PITA_PAN-sans-serif{font-family:sans-serif}.PITA_PAN-cursive{font-family:cursive}.PITA_PAN-monospace{font-family:monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.PITA_PAN-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.PITA_PAN-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.PITA_PAN-table,.PITA_PAN-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.PITA_PAN-table-all{border:1px solid #ccc}
+.PITA_PAN-bordered tr,.PITA_PAN-table-all tr{border-bottom:1px solid #ddd}.PITA_PAN-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.PITA_PAN-table-all tr:nth-child(odd){background-color:#fff}.PITA_PAN-table-all tr:nth-child(even){background-color:#f1f1f1}
+.PITA_PAN-hoverable tbody tr:hover,.PITA_PAN-ul.PITA_PAN-hoverable li:hover{background-color:#ccc}.PITA_PAN-centered tr th,.PITA_PAN-centered tr td{text-align:center}
+.PITA_PAN-table td,.PITA_PAN-table th,.PITA_PAN-table-all td,.PITA_PAN-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.PITA_PAN-table th:first-child,.PITA_PAN-table td:first-child,.PITA_PAN-table-all th:first-child,.PITA_PAN-table-all td:first-child{padding-left:16px}
+.PITA_PAN-btn,.PITA_PAN-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.PITA_PAN-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.PITA_PAN-btn,.PITA_PAN-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.PITA_PAN-disabled,.PITA_PAN-btn:disabled,.PITA_PAN-button:disabled{cursor:not-allowed;opacity:0.3}.PITA_PAN-disabled *,:disabled *{pointer-events:none}
+.PITA_PAN-btn.PITA_PAN-disabled:hover,.PITA_PAN-btn:disabled:hover{box-shadow:none}
+.PITA_PAN-badge,.PITA_PAN-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.PITA_PAN-badge{border-radius:50%}
+.PITA_PAN-ul{list-style-type:none;padding:0;margin:0}.PITA_PAN-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.PITA_PAN-ul li:last-child{border-bottom:none}
+.PITA_PAN-tooltip,.PITA_PAN-display-container{position:relative}.PITA_PAN-tooltip .PITA_PAN-text{display:none}.PITA_PAN-tooltip:hover .PITA_PAN-text{display:inline-block}
+.PITA_PAN-ripple:active{opacity:0.5}.PITA_PAN-ripple{transition:opacity 0s}
+.PITA_PAN-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.PITA_PAN-dropdown-click,.PITA_PAN-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.PITA_PAN-dropdown-hover:hover .PITA_PAN-dropdown-content{display:block}
+.PITA_PAN-dropdown-hover:first-child,.PITA_PAN-dropdown-click:hover{background-color:#ccc;color:#000}
+.PITA_PAN-dropdown-hover:hover > .PITA_PAN-button:first-child,.PITA_PAN-dropdown-click:hover > .PITA_PAN-button:first-child{background-color:#ccc;color:#000}
+.PITA_PAN-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.PITA_PAN-check,.PITA_PAN-radio{width:24px;height:24px;position:relative;top:6px}
+.PITA_PAN-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.PITA_PAN-bar-block .PITA_PAN-dropdown-hover,.PITA_PAN-bar-block .PITA_PAN-dropdown-click{width:100%}
+.PITA_PAN-bar-block .PITA_PAN-dropdown-hover .PITA_PAN-dropdown-content,.PITA_PAN-bar-block .PITA_PAN-dropdown-click .PITA_PAN-dropdown-content{min-width:100%}
+.PITA_PAN-bar-block .PITA_PAN-dropdown-hover .PITA_PAN-button,.PITA_PAN-bar-block .PITA_PAN-dropdown-click .PITA_PAN-button{width:100%;text-align:left;padding:8px 16px}
+.PITA_PAN-main,#main{transition:margin-left .4s}
+.PITA_PAN-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.PITA_PAN-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.PITA_PAN-bar{width:100%;overflow:hidden}.PITA_PAN-center .PITA_PAN-bar{display:inline-block;width:auto}
+.PITA_PAN-bar .PITA_PAN-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.PITA_PAN-bar .PITA_PAN-dropdown-hover,.PITA_PAN-bar .PITA_PAN-dropdown-click{position:static;float:left}
+.PITA_PAN-bar .PITA_PAN-button{white-space:normal}
+.PITA_PAN-bar-block .PITA_PAN-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.PITA_PAN-bar-block.PITA_PAN-center .PITA_PAN-bar-item{text-align:center}.PITA_PAN-block{display:block;width:100%}
+.PITA_PAN-responsive{display:block;overflow-x:auto}
+.PITA_PAN-container:after,.PITA_PAN-container:before,.PITA_PAN-panel:after,.PITA_PAN-panel:before,.PITA_PAN-row:after,.PITA_PAN-row:before,.PITA_PAN-row-padding:after,.PITA_PAN-row-padding:before,
+.PITA_PAN-cell-row:before,.PITA_PAN-cell-row:after,.PITA_PAN-clear:after,.PITA_PAN-clear:before,.PITA_PAN-bar:before,.PITA_PAN-bar:after{content:"";display:table;clear:both}
+.PITA_PAN-col,.PITA_PAN-half,.PITA_PAN-third,.PITA_PAN-twothird,.PITA_PAN-threequarter,.PITA_PAN-quarter{float:left;width:100%}
+.PITA_PAN-col.s1{width:8.33333%}.PITA_PAN-col.s2{width:16.66666%}.PITA_PAN-col.s3{width:24.99999%}.PITA_PAN-col.s4{width:33.33333%}
+.PITA_PAN-col.s5{width:41.66666%}.PITA_PAN-col.s6{width:49.99999%}.PITA_PAN-col.s7{width:58.33333%}.PITA_PAN-col.s8{width:66.66666%}
+.PITA_PAN-col.s9{width:74.99999%}.PITA_PAN-col.s10{width:83.33333%}.PITA_PAN-col.s11{width:91.66666%}.PITA_PAN-col.s12{width:99.99999%}
+@media (min-width:601px){.PITA_PAN-col.m1{width:8.33333%}.PITA_PAN-col.m2{width:16.66666%}.PITA_PAN-col.m3,.PITA_PAN-quarter{width:24.99999%}.PITA_PAN-col.m4,.PITA_PAN-third{width:33.33333%}
+.PITA_PAN-col.m5{width:41.66666%}.PITA_PAN-col.m6,.PITA_PAN-half{width:49.99999%}.PITA_PAN-col.m7{width:58.33333%}.PITA_PAN-col.m8,.PITA_PAN-twothird{width:66.66666%}
+.PITA_PAN-col.m9,.PITA_PAN-threequarter{width:74.99999%}.PITA_PAN-col.m10{width:83.33333%}.PITA_PAN-col.m11{width:91.66666%}.PITA_PAN-col.m12{width:99.99999%}}
+@media (min-width:993px){.PITA_PAN-col.l1{width:8.33333%}.PITA_PAN-col.l2{width:16.66666%}.PITA_PAN-col.l3{width:24.99999%}.PITA_PAN-col.l4{width:33.33333%}
+.PITA_PAN-col.l5{width:41.66666%}.PITA_PAN-col.l6{width:49.99999%}.PITA_PAN-col.l7{width:58.33333%}.PITA_PAN-col.l8{width:66.66666%}
+.PITA_PAN-col.l9{width:74.99999%}.PITA_PAN-col.l10{width:83.33333%}.PITA_PAN-col.l11{width:91.66666%}.PITA_PAN-col.l12{width:99.99999%}}
+.PITA_PAN-rest{overflow:hidden}.PITA_PAN-stretch{margin-left:-16px;margin-right:-16px}
+.PITA_PAN-content,.PITA_PAN-auto{margin-left:auto;margin-right:auto}.PITA_PAN-content{max-width:980px}.PITA_PAN-auto{max-width:1140px}
+.PITA_PAN-cell-row{display:table;width:100%}.PITA_PAN-cell{display:table-cell}
+.PITA_PAN-cell-top{vertical-align:top}.PITA_PAN-cell-middle{vertical-align:middle}.PITA_PAN-cell-bottom{vertical-align:bottom}
+.PITA_PAN-hide{display:none!important}.PITA_PAN-show-block,.PITA_PAN-show{display:block!important}.PITA_PAN-show-inline-block{display:inline-block!important}
+@media (max-width:1205px){.PITA_PAN-auto{max-width:95%}}
+@media (max-width:600px){.PITA_PAN-modal-content{margin:0 10px;width:auto!important}.PITA_PAN-modal{padding-top:30px}
+.PITA_PAN-dropdown-hover.PITA_PAN-mobile .PITA_PAN-dropdown-content,.PITA_PAN-dropdown-click.PITA_PAN-mobile .PITA_PAN-dropdown-content{position:relative}	
+.PITA_PAN-hide-small{display:none!important}.PITA_PAN-mobile{display:block;width:100%!important}.PITA_PAN-bar-item.PITA_PAN-mobile,.PITA_PAN-dropdown-hover.PITA_PAN-mobile,.PITA_PAN-dropdown-click.PITA_PAN-mobile{text-align:center}
+.PITA_PAN-dropdown-hover.PITA_PAN-mobile,.PITA_PAN-dropdown-hover.PITA_PAN-mobile .PITA_PAN-btn,.PITA_PAN-dropdown-hover.PITA_PAN-mobile .PITA_PAN-button,.PITA_PAN-dropdown-click.PITA_PAN-mobile,.PITA_PAN-dropdown-click.PITA_PAN-mobile .PITA_PAN-btn,.PITA_PAN-dropdown-click.PITA_PAN-mobile .PITA_PAN-button{width:100%}}
+@media (max-width:768px){.PITA_PAN-modal-content{width:500px}.PITA_PAN-modal{padding-top:50px}}
+@media (min-width:993px){.PITA_PAN-modal-content{width:900px}.PITA_PAN-hide-large{display:none!important}.PITA_PAN-sidebar.PITA_PAN-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.PITA_PAN-hide-medium{display:none!important}}
+@media (max-width:992px){.PITA_PAN-sidebar.PITA_PAN-collapse{display:none}.PITA_PAN-main{margin-left:0!important;margin-right:0!important}.PITA_PAN-auto{max-width:100%}}
+.PITA_PAN-top,.PITA_PAN-bottom{position:fixed;width:100%;z-index:1}.PITA_PAN-top{top:0}.PITA_PAN-bottom{bottom:0}
+.PITA_PAN-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.PITA_PAN-display-topleft{position:absolute;left:0;top:0}.PITA_PAN-display-topright{position:absolute;right:0;top:0}
+.PITA_PAN-display-bottomleft{position:absolute;left:0;bottom:0}.PITA_PAN-display-bottomright{position:absolute;right:0;bottom:0}
+.PITA_PAN-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.PITA_PAN-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.PITA_PAN-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.PITA_PAN-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.PITA_PAN-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.PITA_PAN-display-container:hover .PITA_PAN-display-hover{display:block}.PITA_PAN-display-container:hover span.PITA_PAN-display-hover{display:inline-block}.PITA_PAN-display-hover{display:none}
+.PITA_PAN-display-position{position:absolute}
+.PITA_PAN-circle{border-radius:50%}
+.PITA_PAN-round-small{border-radius:2px}.PITA_PAN-round,.PITA_PAN-round-medium{border-radius:4px}.PITA_PAN-round-large{border-radius:8px}.PITA_PAN-round-xlarge{border-radius:16px}.PITA_PAN-round-xxlarge{border-radius:32px}
+.PITA_PAN-row-padding,.PITA_PAN-row-padding>.PITA_PAN-half,.PITA_PAN-row-padding>.PITA_PAN-third,.PITA_PAN-row-padding>.PITA_PAN-twothird,.PITA_PAN-row-padding>.PITA_PAN-threequarter,.PITA_PAN-row-padding>.PITA_PAN-quarter,.PITA_PAN-row-padding>.PITA_PAN-col{padding:0 8px}
+.PITA_PAN-container,.PITA_PAN-panel{padding:0.01em 16px}.PITA_PAN-panel{margin-top:16px;margin-bottom:16px}
+.PITA_PAN-code,.PITA_PAN-codespan{font-family:Consolas,"courier new";font-size:16px}
+.PITA_PAN-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.PITA_PAN-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.PITA_PAN-card,.PITA_PAN-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.PITA_PAN-card-4,.PITA_PAN-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.PITA_PAN-spin{animation:PITA_PAN-spin 2s infinite linear}@keyframes PITA_PAN-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.PITA_PAN-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.PITA_PAN-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.PITA_PAN-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.PITA_PAN-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.PITA_PAN-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.PITA_PAN-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.PITA_PAN-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.PITA_PAN-opacity,.PITA_PAN-hover-opacity:hover{opacity:0.60}.PITA_PAN-opacity-off,.PITA_PAN-hover-opacity-off:hover{opacity:1}
+.PITA_PAN-opacity-max{opacity:0.25}.PITA_PAN-opacity-min{opacity:0.75}
+.PITA_PAN-greyscale-max,.PITA_PAN-grayscale-max,.PITA_PAN-hover-greyscale:hover,.PITA_PAN-hover-grayscale:hover{filter:grayscale(100%)}
+.PITA_PAN-greyscale,.PITA_PAN-grayscale{filter:grayscale(75%)}.PITA_PAN-greyscale-min,.PITA_PAN-grayscale-min{filter:grayscale(50%)}
+.PITA_PAN-sepia{filter:sepia(75%)}.PITA_PAN-sepia-max,.PITA_PAN-hover-sepia:hover{filter:sepia(100%)}.PITA_PAN-sepia-min{filter:sepia(50%)}
+.PITA_PAN-tiny{font-size:10px!important}.PITA_PAN-small{font-size:12px!important}.PITA_PAN-medium{font-size:15px!important}.PITA_PAN-large{font-size:18px!important}
+.PITA_PAN-xlarge{font-size:24px!important}.PITA_PAN-xxlarge{font-size:36px!important}.PITA_PAN-xxxlarge{font-size:48px!important}.PITA_PAN-jumbo{font-size:64px!important}
+.PITA_PAN-left-align{text-align:left!important}.PITA_PAN-right-align{text-align:right!important}.PITA_PAN-justify{text-align:justify!important}.PITA_PAN-center{text-align:center!important}
+.PITA_PAN-border-0{border:0!important}.PITA_PAN-border{border:1px solid #ccc!important}
+.PITA_PAN-border-top{border-top:1px solid #ccc!important}.PITA_PAN-border-bottom{border-bottom:1px solid #ccc!important}
+.PITA_PAN-border-left{border-left:1px solid #ccc!important}.PITA_PAN-border-right{border-right:1px solid #ccc!important}
+.PITA_PAN-topbar{border-top:6px solid #ccc!important}.PITA_PAN-bottombar{border-bottom:6px solid #ccc!important}
+.PITA_PAN-leftbar{border-left:6px solid #ccc!important}.PITA_PAN-rightbar{border-right:6px solid #ccc!important}
+.PITA_PAN-section,.PITA_PAN-code{margin-top:16px!important;margin-bottom:16px!important}
+.PITA_PAN-margin{margin:16px!important}.PITA_PAN-margin-top{margin-top:16px!important}.PITA_PAN-margin-bottom{margin-bottom:16px!important}
+.PITA_PAN-margin-left{margin-left:16px!important}.PITA_PAN-margin-right{margin-right:16px!important}
+.PITA_PAN-padding-small{padding:4px 8px!important}.PITA_PAN-padding{padding:8px 16px!important}.PITA_PAN-padding-large{padding:12px 24px!important}
+.PITA_PAN-padding-32{padding-top:32px!important;padding-bottom:32px!important}.PITA_PAN-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.PITA_PAN-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.PITA_PAN-padding-top-64{padding-top:64px!important}.PITA_PAN-padding-top-48{padding-top:48px!important}
+.PITA_PAN-padding-top-32{padding-top:32px!important}.PITA_PAN-padding-top-24{padding-top:24px!important}
+.PITA_PAN-left{float:left!important}.PITA_PAN-right{float:right!important}
+.PITA_PAN-button:hover{color:#000!important;background-color:#ccc!important}
+.PITA_PAN-transparent,.PITA_PAN-hover-none:hover{background-color:transparent!important}
+.PITA_PAN-hover-none:hover{box-shadow:none!important}
+
+
+/* Colors */
+.PITA_PAN-amber,.PITA_PAN-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.PITA_PAN-aqua,.PITA_PAN-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.PITA_PAN-blue,.PITA_PAN-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.PITA_PAN-light-blue,.PITA_PAN-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.PITA_PAN-brown,.PITA_PAN-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.PITA_PAN-cyan,.PITA_PAN-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.PITA_PAN-blue-grey,.PITA_PAN-hover-blue-grey:hover,.PITA_PAN-blue-gray,.PITA_PAN-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.PITA_PAN-green,.PITA_PAN-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.PITA_PAN-light-green,.PITA_PAN-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.PITA_PAN-indigo,.PITA_PAN-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.PITA_PAN-khaki,.PITA_PAN-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.PITA_PAN-lime,.PITA_PAN-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.PITA_PAN-orange,.PITA_PAN-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.PITA_PAN-deep-orange,.PITA_PAN-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.PITA_PAN-pink,.PITA_PAN-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.PITA_PAN-purple,.PITA_PAN-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.PITA_PAN-deep-purple,.PITA_PAN-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.PITA_PAN-red,.PITA_PAN-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.PITA_PAN-sand,.PITA_PAN-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.PITA_PAN-teal,.PITA_PAN-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.PITA_PAN-yellow,.PITA_PAN-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.PITA_PAN-white,.PITA_PAN-hover-white:hover{color:#000!important;background-color:#fff!important}
+.PITA_PAN-black,.PITA_PAN-hover-black:hover{color:#fff!important;background-color:#000!important}
+.PITA_PAN-grey,.PITA_PAN-hover-grey:hover,.PITA_PAN-gray,.PITA_PAN-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.PITA_PAN-light-grey,.PITA_PAN-hover-light-grey:hover,.PITA_PAN-light-gray,.PITA_PAN-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.PITA_PAN-dark-grey,.PITA_PAN-hover-dark-grey:hover,.PITA_PAN-dark-gray,.PITA_PAN-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.PITA_PAN-pale-red,.PITA_PAN-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.PITA_PAN-pale-green,.PITA_PAN-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.PITA_PAN-pale-yellow,.PITA_PAN-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.PITA_PAN-pale-blue,.PITA_PAN-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.PITA_PAN-text-amber,.PITA_PAN-hover-text-amber:hover{color:#ffc107!important}
+.PITA_PAN-text-aqua,.PITA_PAN-hover-text-aqua:hover{color:#00ffff!important}
+.PITA_PAN-text-blue,.PITA_PAN-hover-text-blue:hover{color:#2196F3!important}
+.PITA_PAN-text-light-blue,.PITA_PAN-hover-text-light-blue:hover{color:#87CEEB!important}
+.PITA_PAN-text-brown,.PITA_PAN-hover-text-brown:hover{color:#795548!important}
+.PITA_PAN-text-cyan,.PITA_PAN-hover-text-cyan:hover{color:#00bcd4!important}
+.PITA_PAN-text-blue-grey,.PITA_PAN-hover-text-blue-grey:hover,.PITA_PAN-text-blue-gray,.PITA_PAN-hover-text-blue-gray:hover{color:#607d8b!important}
+.PITA_PAN-text-green,.PITA_PAN-hover-text-green:hover{color:#4CAF50!important}
+.PITA_PAN-text-light-green,.PITA_PAN-hover-text-light-green:hover{color:#8bc34a!important}
+.PITA_PAN-text-indigo,.PITA_PAN-hover-text-indigo:hover{color:#3f51b5!important}
+.PITA_PAN-text-khaki,.PITA_PAN-hover-text-khaki:hover{color:#b4aa50!important}
+.PITA_PAN-text-lime,.PITA_PAN-hover-text-lime:hover{color:#cddc39!important}
+.PITA_PAN-text-orange,.PITA_PAN-hover-text-orange:hover{color:#ff9800!important}
+.PITA_PAN-text-deep-orange,.PITA_PAN-hover-text-deep-orange:hover{color:#ff5722!important}
+.PITA_PAN-text-pink,.PITA_PAN-hover-text-pink:hover{color:#e91e63!important}
+.PITA_PAN-text-purple,.PITA_PAN-hover-text-purple:hover{color:#9c27b0!important}
+.PITA_PAN-text-deep-purple,.PITA_PAN-hover-text-deep-purple:hover{color:#673ab7!important}
+.PITA_PAN-text-red,.PITA_PAN-hover-text-red:hover{color:#f44336!important}
+.PITA_PAN-text-sand,.PITA_PAN-hover-text-sand:hover{color:#fdf5e6!important}
+.PITA_PAN-text-teal,.PITA_PAN-hover-text-teal:hover{color:#009688!important}
+.PITA_PAN-text-yellow,.PITA_PAN-hover-text-yellow:hover{color:#d2be0e!important}
+.PITA_PAN-text-white,.PITA_PAN-hover-text-white:hover{color:#fff!important}
+.PITA_PAN-text-black,.PITA_PAN-hover-text-black:hover{color:#000!important}
+.PITA_PAN-text-grey,.PITA_PAN-hover-text-grey:hover,.PITA_PAN-text-gray,.PITA_PAN-hover-text-gray:hover{color:#757575!important}
+.PITA_PAN-text-light-grey,.PITA_PAN-hover-text-light-grey:hover,.PITA_PAN-text-light-gray,.PITA_PAN-hover-text-light-gray:hover{color:#f1f1f1!important}
+.PITA_PAN-text-dark-grey,.PITA_PAN-hover-text-dark-grey:hover,.PITA_PAN-text-dark-gray,.PITA_PAN-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.PITA_PAN-border-amber,.PITA_PAN-hover-border-amber:hover{border-color:#ffc107!important}
+.PITA_PAN-border-aqua,.PITA_PAN-hover-border-aqua:hover{border-color:#00ffff!important}
+.PITA_PAN-border-blue,.PITA_PAN-hover-border-blue:hover{border-color:#2196F3!important}
+.PITA_PAN-border-light-blue,.PITA_PAN-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.PITA_PAN-border-brown,.PITA_PAN-hover-border-brown:hover{border-color:#795548!important}
+.PITA_PAN-border-cyan,.PITA_PAN-hover-border-cyan:hover{border-color:#00bcd4!important}
+.PITA_PAN-border-blue-grey,.PITA_PAN-hover-border-blue-grey:hover,.PITA_PAN-border-blue-gray,.PITA_PAN-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.PITA_PAN-border-green,.PITA_PAN-hover-border-green:hover{border-color:#4CAF50!important}
+.PITA_PAN-border-light-green,.PITA_PAN-hover-border-light-green:hover{border-color:#8bc34a!important}
+.PITA_PAN-border-indigo,.PITA_PAN-hover-border-indigo:hover{border-color:#3f51b5!important}
+.PITA_PAN-border-khaki,.PITA_PAN-hover-border-khaki:hover{border-color:#f0e68c!important}
+.PITA_PAN-border-lime,.PITA_PAN-hover-border-lime:hover{border-color:#cddc39!important}
+.PITA_PAN-border-orange,.PITA_PAN-hover-border-orange:hover{border-color:#ff9800!important}
+.PITA_PAN-border-deep-orange,.PITA_PAN-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.PITA_PAN-border-pink,.PITA_PAN-hover-border-pink:hover{border-color:#e91e63!important}
+.PITA_PAN-border-purple,.PITA_PAN-hover-border-purple:hover{border-color:#9c27b0!important}
+.PITA_PAN-border-deep-purple,.PITA_PAN-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.PITA_PAN-border-red,.PITA_PAN-hover-border-red:hover{border-color:#f44336!important}
+.PITA_PAN-border-sand,.PITA_PAN-hover-border-sand:hover{border-color:#fdf5e6!important}
+.PITA_PAN-border-teal,.PITA_PAN-hover-border-teal:hover{border-color:#009688!important}
+.PITA_PAN-border-yellow,.PITA_PAN-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.PITA_PAN-border-white,.PITA_PAN-hover-border-white:hover{border-color:#fff!important}
+.PITA_PAN-border-black,.PITA_PAN-hover-border-black:hover{border-color:#000!important}
+.PITA_PAN-border-grey,.PITA_PAN-hover-border-grey:hover,.PITA_PAN-border-gray,.PITA_PAN-hover-border-gray:hover{border-color:#9e9e9e!important}
+.PITA_PAN-border-light-grey,.PITA_PAN-hover-border-light-grey:hover,.PITA_PAN-border-light-gray,.PITA_PAN-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.PITA_PAN-border-dark-grey,.PITA_PAN-hover-border-dark-grey:hover,.PITA_PAN-border-dark-gray,.PITA_PAN-hover-border-dark-gray:hover{border-color:#616161!important}
+.PITA_PAN-border-pale-red,.PITA_PAN-hover-border-pale-red:hover{border-color:#ffe7e7!important}.PITA_PAN-border-pale-green,.PITA_PAN-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.PITA_PAN-border-pale-yellow,.PITA_PAN-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.PITA_PAN-border-pale-blue,.PITA_PAN-hover-border-pale-blue:hover{border-color:#e7ffff!important}
